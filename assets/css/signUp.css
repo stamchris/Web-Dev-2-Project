@@ -1,0 +1,150 @@
+
+
+
+#page div{
+
+    margin:0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.account{
+    float:left;
+
+    margin:auto;
+}
+
+.account.side{
+    width:600px;
+    padding: 0px;
+    margin:10px;
+}
+
+.account.middle{
+    width: 10%;
+    padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .account.side, .account.middle {
+    width: 100%;
+  }
+}
+
+
+
+.account.side div  {
+  background: #384047;
+  font-family: sans-serif;
+  font-size: 10px;
+ }
+
+.right form{
+      padding: 6em 6em 4em;
+}
+
+.account.side form {
+  background: #fff;
+  padding: 4em 4em 2em;
+
+  margin: 60px 100px 20px 0;
+  box-shadow: 0 0 1em #222;
+  border-radius: 2px;
+  margin-left: 50px;
+  }
+
+.account.side  h2 {
+    margin:0 0 50px 0;
+    padding:10px;
+    text-align:center;
+    font-size:20px;
+    color:darken(#e5e5e5, 50%);
+    border-bottom:solid 1px #e5e5e5;
+  }
+
+.account.side  p {
+    margin: 0 0 3em 0;
+    position: relative;
+  }
+
+.account.side  input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    margin:0;
+  }
+
+.account.side input[type="text"],
+  input[type="password"] {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    font-size: 1.6em;
+    padding: 1.5em .5em .10em ;
+    border-radius: 2px;
+  }
+
+.account.side   input[type="text"]:focus,
+  input[type="password"]:focus {
+      background-color: #F0FFFF;
+  }
+
+  .account.side input[type="submit"] {
+    background:paleturquoise;
+    box-shadow: 0 3px 0 0 darken(paleturquoise, 10%);
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 2em;
+    line-height: 1.6em;
+    margin: 2em 0 0;
+    outline: none;
+    padding: .8em 0;
+    text-shadow: 0 1px #68B25B;
+  }
+
+  .account.side  input[type="submit"]:hover {
+    background: #2F4F4F;
+    text-shadow:0 1px 3px darken(paleturquoise, 30%);
+  }
+
+  .account.side label{
+    position: absolute;
+    left: 8px;
+    top: 10px;
+    color: #999;
+    font-size: 16px;
+    display: inline-block;
+    padding: 4px 10px;
+    font-weight: 400;
+  }
+
+
+.account.side .floatLabel{
+      top: 10px;
+      background-color: rgba(255,255,255,0.8);
+      font-size: 14px;
+}
+
+ .account.middle p{
+
+  height: 80px;
+  border: 1px solid black;
+  padding: 0.2em 1.2em 1.5em 2em;
+  background: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 100%;
+
+
+}

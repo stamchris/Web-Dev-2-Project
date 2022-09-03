@@ -1,0 +1,149 @@
+body{
+        background-color: lightblue;
+        background-repeat: no-repeat;
+        margin: 0;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.accueil div{
+      background-color: #FFE4C4;
+      background-repeat:no-repeat;
+      border: 5px solid white;
+}
+
+.rech {
+      height: 180px;
+      max-width: 50% ;
+      padding: 10px;
+      margin: 80px ;
+      margin-left: 300px;
+}
+
+
+.accueil p{
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+
+.accueil input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 15px;
+    background-color: #F0F8FF;
+    background-image:url('images/search.png');
+    background-position: 12px 12px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+.accueil input[type=text]:focus{
+    border: 3px solid #2F4F4F;
+    outline: none;
+    }
+
+.accueil input[type=submit]{
+  background-color: #B22222;
+  color: #00FFFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top:10px;
+  float: right;
+}
+
+.accueil input[type=submit]:hover{
+    background-color: #DC143C;
+}
+
+.accueil h1{
+    margin-bottom: 0px;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 400px 400px 400px ;
+  grid-template-rows: 400px 400px 400px;
+  grid-gap: 10px;
+  background-color: lightblue;
+  padding: 5px;
+  margin-top: 6%;
+  margin-left: 100px;
+
+}
+
+.grid-container article {
+  background-color: #FFE4C4;
+
+}
+
+.grid-container p{
+      text-align: left;
+      font-style: normal;
+
+
+}
+
+.grid-container h3{
+      padding-bottom: 20px;
+      border-bottom: 1px solid #2F4F4F
+}
+.grid-container h2 {
+      text-align: center;
+      padding-top:0px;
+      margin-top: 0px;
+      font-size: 30px;
+
+}
+
+.annonces h4{
+      border-bottom: 1px solid #2F4F4F;
+      font-style: italic;
+      padding-bottom: 20px;
+}
+
+#pmiddle {
+      border-radius: 10px;
+      border:3px solid white;
+      max-width: 160px;
+      text-align: center;
+      background: white;
+      margin-left: 600px;
+      margin-top: 200px;
+      margin-bottom: 30px;
+}
+
+.grid-container button {
+      display: block;
+      box-sizing: border-box;
+      width: 25%;
+      float:right;
+      background: red;
+      border: 1px solid #dbdbdb;
+      font-size: 1.6em;
+      padding: .2em .2em;
+      border-radius: 2px;
+      text-align: center;
+      margin-right: 2px;
+      position: relative;
+      bottom: -200px;
+}
+
+.grid-container button:hover{
+      background: #2F4F4F;
+}
+
+.grid-container button:active{
+      color:yellow;
+}
