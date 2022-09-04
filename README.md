@@ -1,7 +1,7 @@
 
 index.php ---->>> Il y a un block de recherche (qui ne marche pas ) et la liste des
                   annonces. Si on clicke sur Open dans l annonce
-                  qu on veut ouvrir , on se dirige a la page "post.php" ( pour le faire ca j'ai implemente la page assets/php/fullpost, mais je suis pas arrive a le faire marcher)
+                  qu on veut ouvrir , on se dirige a la page "post.php" ( pour le faire ca j'ai implemente la page fullpost, mais je suis pas arrive a le faire marcher)
 
 post.php ------>>> Le detail de l' annonce ( pas complete)
 
